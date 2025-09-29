@@ -1,0 +1,277 @@
+{
+    "nodes": [
+        {
+            "id": 2904132901264,
+            "name": "开始",
+            "x": -429.5652173913044,
+            "y": -264.34782608695656,
+            "node_type": "Start",
+            "input_pin_values": [],
+            "output_pin_values": [
+                ""
+            ],
+            "input_pin_combo_values": [],
+            "output_pin_combo_values": [
+                ""
+            ]
+        },
+        {
+            "id": 2904132898672,
+            "name": "类型转换",
+            "x": -300.0,
+            "y": -271.0,
+            "node_type": "TypeChange",
+            "input_pin_values": [
+                "",
+                ""
+            ],
+            "output_pin_values": [
+                "",
+                ""
+            ],
+            "input_pin_combo_values": [
+                "",
+                "int"
+            ],
+            "output_pin_combo_values": [
+                "",
+                "str"
+            ]
+        },
+        {
+            "id": 2904132896800,
+            "name": "打印",
+            "x": -96.0,
+            "y": -290.0,
+            "node_type": "Print",
+            "input_pin_values": [
+                "",
+                ""
+            ],
+            "output_pin_values": [
+                ""
+            ],
+            "input_pin_combo_values": [
+                "",
+                ""
+            ],
+            "output_pin_combo_values": [
+                ""
+            ]
+        },
+        {
+            "id": 2904132203088,
+            "name": "打印",
+            "x": 146.0,
+            "y": -390.0,
+            "node_type": "Print",
+            "input_pin_values": [
+                "",
+                "1"
+            ],
+            "output_pin_values": [
+                ""
+            ],
+            "input_pin_combo_values": [
+                "",
+                ""
+            ],
+            "output_pin_combo_values": [
+                ""
+            ]
+        },
+        {
+            "id": 2904132837024,
+            "name": "打印",
+            "x": 308.0113421550095,
+            "y": -389.2759924385634,
+            "node_type": "Print",
+            "input_pin_values": [
+                "",
+                "2"
+            ],
+            "output_pin_values": [
+                ""
+            ],
+            "input_pin_combo_values": [
+                "",
+                ""
+            ],
+            "output_pin_combo_values": [
+                ""
+            ]
+        },
+        {
+            "id": 2904132829680,
+            "name": "打印",
+            "x": 244.6956521739131,
+            "y": -144.73913043478262,
+            "node_type": "Print",
+            "input_pin_values": [
+                "",
+                ""
+            ],
+            "output_pin_values": [
+                ""
+            ],
+            "input_pin_combo_values": [
+                "",
+                ""
+            ],
+            "output_pin_combo_values": [
+                ""
+            ]
+        },
+        {
+            "id": 2904132833568,
+            "name": "加(int)",
+            "x": -456.0,
+            "y": -145.0,
+            "node_type": "Add(int)",
+            "input_pin_values": [
+                "111",
+                "222"
+            ],
+            "output_pin_values": [
+                ""
+            ],
+            "input_pin_combo_values": [
+                "",
+                ""
+            ],
+            "output_pin_combo_values": [
+                ""
+            ]
+        },
+        {
+            "id": 2904132840336,
+            "name": "加(int)",
+            "x": -229.60869565217388,
+            "y": -140.43478260869566,
+            "node_type": "Add(int)",
+            "input_pin_values": [
+                "333",
+                ""
+            ],
+            "output_pin_values": [
+                ""
+            ],
+            "input_pin_combo_values": [
+                "",
+                ""
+            ],
+            "output_pin_combo_values": [
+                ""
+            ]
+        },
+        {
+            "id": 2904132845232,
+            "name": "类型转换",
+            "x": 90.56521739130436,
+            "y": -145.91304347826087,
+            "node_type": "TypeChange",
+            "input_pin_values": [
+                "",
+                ""
+            ],
+            "output_pin_values": [
+                "",
+                ""
+            ],
+            "input_pin_combo_values": [
+                "",
+                "int"
+            ],
+            "output_pin_combo_values": [
+                "",
+                "str"
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "start_node": 0,
+            "end_node": 1,
+            "start_pin": 0,
+            "end_pin": 0,
+            "color": "#ff0000"
+        },
+        {
+            "start_node": 1,
+            "end_node": 2,
+            "start_pin": 1,
+            "end_pin": 1,
+            "color": "#4ecdc4"
+        },
+        {
+            "start_node": 1,
+            "end_node": 2,
+            "start_pin": 0,
+            "end_pin": 0,
+            "color": "#ff0000"
+        },
+        {
+            "start_node": 2,
+            "end_node": 3,
+            "start_pin": 0,
+            "end_pin": 0,
+            "color": "#ff0000"
+        },
+        {
+            "start_node": 2,
+            "end_node": 4,
+            "start_pin": 0,
+            "end_pin": 0,
+            "color": "#ff0000"
+        },
+        {
+            "start_node": 6,
+            "end_node": 1,
+            "start_pin": 0,
+            "end_pin": 1,
+            "color": "#32ff46"
+        },
+        {
+            "start_node": 6,
+            "end_node": 7,
+            "start_pin": 0,
+            "end_pin": 1,
+            "color": "#32ff46"
+        },
+        {
+            "start_node": 2,
+            "end_node": 8,
+            "start_pin": 0,
+            "end_pin": 0,
+            "color": "#ff0000"
+        },
+        {
+            "start_node": 7,
+            "end_node": 8,
+            "start_pin": 0,
+            "end_pin": 1,
+            "color": "#32ff46"
+        },
+        {
+            "start_node": 8,
+            "end_node": 5,
+            "start_pin": 1,
+            "end_pin": 1,
+            "color": "#4ecdc4"
+        },
+        {
+            "start_node": 8,
+            "end_node": 5,
+            "start_pin": 0,
+            "end_pin": 0,
+            "color": "#ff0000"
+        },
+        {
+            "start_node": 3,
+            "end_node": 4,
+            "start_pin": 0,
+            "end_pin": 0,
+            "color": "#ff0000"
+        }
+    ]
+}
