@@ -187,11 +187,10 @@ logs/
 .workflow-confirmations.json
 
 # 测试文件（如果不需要版本控制）
-# test.py
-test_ui_2.py
 
 # 废弃内容目录
 废弃内容/
 
 # 缓存目录
 .cache/
+
